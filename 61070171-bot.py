@@ -23,7 +23,7 @@ while True:
     print(messages)
     if messages == "61070171":
         print("yes")
-        message_send = "this is my student id reply here."
+        message_send = "Loopback61070171 - Operational status is up no netconf"
         url = 'https://webexapis.com/v1/messages'
         headers = {
         'Authorization': 'Bearer {}'.format(access_token),
